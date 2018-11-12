@@ -2,3 +2,7 @@ django/Include
 django/Lib
 django/Scripts
 django/tcl
+django/.idea
+django2/venv
+django2/.idea
+django/venv
