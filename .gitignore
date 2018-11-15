@@ -8,3 +8,4 @@ django2/.idea
 django/venv
 js/to-do-list/node_modules
 js/.idea
+js/meme/node_modules
