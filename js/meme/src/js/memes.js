@@ -1,4 +1,4 @@
-import '/.general';
+import './general';
 
 console.log('Meme JS file');
 

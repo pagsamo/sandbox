@@ -86,6 +86,29 @@
 /************************************************************************/
 /******/ ({
 
+/***/ "./src/css/styles.css":
+/*!****************************!*\
+  !*** ./src/css/styles.css ***!
+  \****************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+eval("throw new Error(\"Module parse failed: Unexpected token (1:4)\\nYou may need an appropriate loader to handle this file type.\\n> body{\\r\\n|     padding-top:65px;\\r\\n| }\\r\");\n\n//# sourceURL=webpack:///./src/css/styles.css?");
+
+/***/ }),
+
+/***/ "./src/js/general.js":
+/*!***************************!*\
+  !*** ./src/js/general.js ***!
+  \***************************/
+/*! no exports provided */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _css_styles_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../css/styles.css */ \"./src/css/styles.css\");\n/* harmony import */ var _css_styles_css__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_css_styles_css__WEBPACK_IMPORTED_MODULE_0__);\nconsole.log('General JSFile');\r\n\r\n\n\n//# sourceURL=webpack:///./src/js/general.js?");
+
+/***/ }),
+
 /***/ "./src/js/memes.js":
 /*!*************************!*\
   !*** ./src/js/memes.js ***!
@@ -94,7 +117,7 @@
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n!(function webpackMissingModule() { var e = new Error(\"Cannot find module '/.general'\"); e.code = 'MODULE_NOT_FOUND'; throw e; }());\n\r\n\r\nconsole.log('Meme JS file');\n\n//# sourceURL=webpack:///./src/js/memes.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _general__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./general */ \"./src/js/general.js\");\n\r\n\r\nconsole.log('Meme JS file');\r\n\r\n\r\nclass Memes{\r\n    constructor(){\r\n        console.log('Inside Memes class');\r\n    }\r\n}\r\n\r\nnew Memes();\n\n//# sourceURL=webpack:///./src/js/memes.js?");
 
 /***/ })
 
